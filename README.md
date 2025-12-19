@@ -135,15 +135,7 @@ solana-raw-tx <signature> --quiet | base64 -d | xxd -p
 
 ## Output
 
-The tool displays:
-
-1. **Transaction Status** - Success or failure with error details
-2. **Transaction Details** - Signature, slot, block time, fee
-3. **Signers** - All transaction signers
-4. **Transaction Type** - Legacy or versioned transaction
-5. **Raw Bytes** - Both base64 and hexadecimal formats (copyable)
-6. **Instructions** - Parsed instruction details (when available)
-7. **Log Messages** - Transaction execution logs
+<img width="950" height="791" alt="Screenshot 2025-12-19 at 12 43 07" src="https://github.com/user-attachments/assets/75abb405-2a6e-4d5e-8c34-5b78e09a2a15" />
 
 ## Error Handling
 
@@ -173,12 +165,3 @@ npm run dev <signature>
 # Link globally for testing
 npm link
 ```
-
-## License
-
-MIT
-
-## Contributing
-
-Contributions welcome! This tool addresses a common need in the Solana developer community for quick access to raw transaction bytes.
-
